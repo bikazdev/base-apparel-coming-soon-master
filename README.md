@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/your-solution
+- Solution URL: https://www.frontendmentor.io/solutions/base-apparel-coming-soon-master-61-jkhwBPc
 - Live Site URL: https://base-apparel-coming-soon-master.bikazdev.workers.dev/
 
 ---
