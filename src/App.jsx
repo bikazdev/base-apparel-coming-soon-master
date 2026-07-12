@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div className="w-full flex flex-col min-h-screen lg:flex-row relative ">
-      <div className="flex flex-col flex-1 z-100 lg:before:bg-[url('images/bg-pattern-desktop.svg')] lg:before:bg-no-repeat lg:before:absolute lg:before:left-0 lg:before:top-0 lg:before:w-4/6 lg:before:h-full lg:before:z-[-1] lg:before:bg-cover lg:before:bg-left">
+      <div className="flex flex-col flex-1 z-100 lg:before:bg-[url('images/bg-pattern-desktop.svg')] lg:before:bg-no-repeat lg:before:absolute lg:before:left-0 lg:before:top-0 lg:before:w-4/6 lg:before:bottom-0 lg:before:z-[-1] lg:before:bg-cover lg:before:bg-left">
         <header className="p-10 lg:px-50 lg:pt-16">
           <img src="images/logo.svg" alt="logo" className="w-2/5 lg:w-45" />
         </header>
@@ -99,15 +99,15 @@ const App = () => {
           </motion.form>
         </section>
       </div>
-      <div className="hidden lg:block z-100">
+      <div className="hidden lg:block z-100 ">
         <img
           src="/images/hero-desktop.jpg"
           alt="hero-desktop"
-          className="hidden lg:block lg:h-full lg:w-fit"
+          className="hidden lg:block "
         />
       </div>
 
-      <footer className="absolute -bottom-45 lg:bottom-2 left-2 text-xs opacity-60 z-100">
+      <footer className="absolute -bottom-100 lg:bottom-2 left-2 text-xs opacity-60 z-100">
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
